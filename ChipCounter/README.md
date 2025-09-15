@@ -63,4 +63,12 @@ make run-binary BINARY=../../tests/charcount_tuned.riscv
 > make run-binary CONFIG=TunedCounterRocketConfigs BINARY=../../tests/charcount_tuned.riscv
 > ```
 
+## Resources
+- [Chipyard Document (Stable Version)](https://chipyard.readthedocs.io/en/stable/index.html)
+> ***Note:*** Sections Helpful for this Counter
+> [6. Customization](https://chipyard.readthedocs.io/en/stable/Customization/index.html)
+> [6.6. Adding a RoCC Accelerator](https://chipyard.readthedocs.io/en/stable/Customization/RoCC-Accelerators.html)
+> [6.12 Memory Hierarchy](https://chipyard.readthedocs.io/en/stable/Customization/Memory-Hierarchy.html)
+- [Chipyard Basics Tutorial Video 2023](https://m.youtube.com/watch?v=EXbs5VSv19c)
+- [Chipyard Google Group](https://groups.google.com/u/2/g/chipyard)
 ## Common Issues/Errors 
