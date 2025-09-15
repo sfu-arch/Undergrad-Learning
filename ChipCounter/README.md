@@ -47,3 +47,18 @@ Efficiently count occurrences of a character in a string using a custom hardware
    - Save the file.
 
 ## Running The Accelerator
+1. Make the c test files
+```
+cd test/
+make
+```
+2. Make the configs file and run the accelerator
+```
+cd generators/chipyard/ # or cd ../generators/chipyard/ if you're in tests/ and not the chipyard root
+make CONFIG=TunedCounterRocketConfigs
+make run-binary BINARY=../../tests/charcount_tuned.riscv
+``` 
+> ***Note*** You can combine make config and run-binary into one command: 
+> ```
+> make run-binary CONFIG=TunedCounterRocketConfigs BINARY=../../tests/charcount_tuned.riscv
+> ```
