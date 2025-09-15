@@ -62,3 +62,5 @@ make run-binary BINARY=../../tests/charcount_tuned.riscv
 > ```
 > make run-binary CONFIG=TunedCounterRocketConfigs BINARY=../../tests/charcount_tuned.riscv
 > ```
+
+## Common Issues/Errors 
