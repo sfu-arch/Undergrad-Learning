@@ -26,6 +26,7 @@ Efficiently count occurrences of a character in a string using a custom hardware
       /path/to/chipyard/tests/
       ```
   Replace `/path/to/chipyard/` with the actual path to your Chipyard repository.
+  
 3. Register your accelerator in Chipyard's build system:
    - Open the `build.sbt` file in the root of your Chipyard repository.
    - Add a new project definition for your accelerator after the other accelerator projects in "// -- Chipyard-managed External Projects --":
