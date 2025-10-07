@@ -55,7 +55,7 @@ make
 ```
 2. Make the configs file and run the accelerator
 ```
-cd generators/chipyard/ # or cd ../generators/chipyard/ if you're in tests/ and not the chipyard root
+cd sims/verilator/ # from chipyard root
 make CONFIG=TunedCounterRocketConfigs
 make run-binary BINARY=../../tests/charcount_tuned.riscv
 ``` 
