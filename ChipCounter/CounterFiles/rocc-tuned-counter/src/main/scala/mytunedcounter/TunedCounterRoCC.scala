@@ -53,9 +53,9 @@ class TunedCounterModule(outer: TunedCounter)(implicit p: Parameters) extends La
   io.mem.keep_clock_enabled := true.B
   // Calculate memory request size (power of two covering chunk_size)
   def minPow2(x: UInt): UInt = {
-    Mux(x <= 1.U, 0.U,            // Get 1 byte for 1 char
-    Mux(x <= 2.U, 1.U,            // Get 2 bytes for 2 chars
-    Mux(x <= 4.U, 2.U, 3.U)))     // Get 4 bytes for 4 chars, 8 bytes if nt
+    Mux(x <= 1.U, 0.U,            // If 1 char get 2^0 = 1 byte
+    Mux(x <= 2.U, 1.U,            // Else if 2 chars get 2 bytes
+    Mux(x <= 4.U, 2.U, 3.U)))     // Else if 4 chars get 4 bytes, else get 8 bytes
   }
   val memReqSize = minPow2(chunk_size)
   io.mem.req.bits.size := memReqSize

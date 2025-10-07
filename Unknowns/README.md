@@ -7,3 +7,7 @@ Links:
 ## Image Filtering
 Links:
 - https://lodev.org/cgtutor/filtering.html
+
+## Github Submodules
+Links:
+- https://gist.github.com/gitaarik/8735255

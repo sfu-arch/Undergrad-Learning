@@ -71,4 +71,3 @@ make run-binary BINARY=../../tests/charcount_tuned.riscv
 > [6.12 Memory Hierarchy](https://chipyard.readthedocs.io/en/stable/Customization/Memory-Hierarchy.html)
 - [Chipyard Basics Tutorial Video 2023](https://m.youtube.com/watch?v=EXbs5VSv19c)
 - [Chipyard Google Group](https://groups.google.com/u/2/g/chipyard)
-## Common Issues/Errors 
