@@ -56,12 +56,12 @@ make
 2. Make the configs file and run the accelerator
 ```
 cd sims/verilator/ # from chipyard root
-make CONFIG=TunedCounterRocketConfigs
+make CONFIG=TunedCounterRocketConfig
 make run-binary BINARY=../../tests/charcount_tuned.riscv
 ``` 
 > ***Note*** You can combine make config and run-binary into one command: 
 > ```
-> make run-binary CONFIG=TunedCounterRocketConfigs BINARY=../../tests/charcount_tuned.riscv
+> make run-binary CONFIG=TunedCounterRocketConfig BINARY=../../tests/charcount_tuned.riscv
 > ```
 
 ## Resources
