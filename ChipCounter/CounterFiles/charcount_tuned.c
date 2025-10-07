@@ -23,7 +23,7 @@ int main(void)
     printf("Full string: \"%s\"\n", string);
     
     // Count 'o' characters in full string (should be 4)
-    unsigned long count = count_chars_tuned(string, 'o', 7);
+    unsigned long count = count_chars_tuned(string, 'o', 4);
     printf("Count of 'o': %lu\n", count);
     printf("Expected: 4\n");
     
