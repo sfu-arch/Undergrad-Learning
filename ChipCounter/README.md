@@ -47,7 +47,7 @@ Efficiently count occurrences of a character in a string using a custom hardware
      ```
    - Save the file.
 
-## Running The Accelerator
+## Running The Accelerator (always do `source env.sh` in root before doing other commands)
 1. Make the c test files
 ```
 cd test/
